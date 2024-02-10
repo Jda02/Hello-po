@@ -1,0 +1,10 @@
+while True:
+    answer = input("Do you like me? (Yes/No): ").strip().lower()
+    
+    if answer == "yes":
+        print("😊")
+        break
+    elif answer == "no":
+        print("NO")
+    else:
+        print("Please answer with Yes or No.")
